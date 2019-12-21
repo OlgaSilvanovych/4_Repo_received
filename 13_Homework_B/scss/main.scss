@@ -1,0 +1,131 @@
+@import "bootstrap/bootstrap";
+ 
+
+.main-header{
+	background: #1d2126;
+	.btn{
+		border-color: transparent;
+		text-decoration: none;
+		
+		&:hover{
+			border-color: #5b6168;
+			color: #a4aead;
+			background: none;
+		}
+	}
+	.navbar-nav li{
+		margin-left: 11px;
+		&.active a{
+			border-color: #23b7a4;
+			color: #23b7a4;
+		}
+	}
+}
+
+.skills{
+	// height: 100%;
+	// left: 0;
+	// right: 0;
+	// text-align: left;
+	padding-top: 6.5625rem;
+	
+		h1{
+			text-transform: uppercase;
+			font-size: 2.25rem;
+			line-height: 2.375rem;
+			color: #292f36;
+			padding-left: 1.625rem;
+			border-left: 10px solid #e1e6ea;
+		}
+}
+.card{
+	border: none;
+	padding-top: 5.625rem;
+	text-align: center;
+	span{
+		text-align: center;
+	}
+	h5{
+		text-transform: uppercase;
+	    font-size: 1.0625rem;
+	    color: #292f36;
+	    padding-top: 2rem;
+	}
+	p{
+		font-size: 1rem;
+	    color: #8d8f92;
+	}
+	.card-title {
+        margin-bottom: 1.5625rem;
+    }
+    .card-body {
+        padding: 0.5rem; }
+}
+.row.content{
+	margin-bottom: 6.5625rem;
+}
+.row.content a{
+	display: block;
+}
+.gears a{
+	background: url('images/sprite.png') no-repeat 0 0;
+	width: 48px;
+	height: 48px;
+}
+
+.phone{
+	width: 30px;
+	height: 48px;
+}
+.pencil,
+.gears,
+.clock{
+	width: 48px;
+	height: 48px;
+}
+
+
+// .carousel-caption{
+// 	height: 100%;
+// 	left: 0;
+// 	right: 0;
+// 	text-align: left;
+// 	h1{
+// 		text-transform: uppercase;
+// 		@include media-breakpoint-down(sm) {
+// 		    font-size: 1rem;
+// 		    margin-top: 14px;
+// 		}
+// 	}
+// 	p{
+// 		@include media-breakpoint-down(sm) {
+// 			font-size: 0.85rem;
+// 		}
+// 	}
+// }
+// .gallery-text,
+// .gallery-text-row{
+// 	height: 100%;
+// }
+// .btn.btn-primary{
+// 	border: 2px solid #fff;
+// 	text-decoration: none;
+// 	text-transform: uppercase;
+// 	margin-right: 12px;
+// 	&:hover{
+// 		background: #23b7a4;
+// 		color: #fff;
+// 		border: 2px solid #23b7a4;
+// 	}
+// }
+// .carousel-indicators{
+// 	justify-content: flex-end;
+// 	li{
+// 		border-radius: 50%;
+// 		background: none;
+// 		border: 2px solid #fff;
+// 		&.active{
+// 			background: #fff;
+// 		}
+// 	}
+// }
