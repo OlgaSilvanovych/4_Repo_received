@@ -1,0 +1,68 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+*{
+	box-sizing: border-box;
+}
+a{
+  color: #8e8e8e;
+  text-decoration: none;
+}
+a:hover{
+  color: #131316;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+}
+
+.main{
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 1058px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.footer{
+  position: relative;
+  width: 1150px;
+  margin: auto;
+  height: 100px;
+  padding-top: 40px;
+}
+.list{
+  width: 235px;
+  margin-left: 15px;
+}
+.list li{
+  display: flex;
+  flex-direction: row;
+  display: inline;
+  font-size: 13px;
+  color: #ffe600; 
+}
+.list li a{
+  padding-left: 2px;
+  color: #c0ae06;
+}
+.list:before{
+  content:'';
+  background: url('../img/sprite.png') no-repeat 0 -24px;
+  width: 10px;
+  height: 9px;
+  position: absolute;
+  left: 0;
+  top: 45px;
+  }
